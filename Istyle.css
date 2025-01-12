@@ -192,7 +192,7 @@ header nav .menu a.active {
 /* Section 2: Featured Products */
 .why-us {
   background: url('bgforsec2home.webp') no-repeat center center/cover;
-  padding: 100px 20px;
+  padding: 100px 20px 50px 20px;
   text-align: left;
   color: white;
   display: flex;
@@ -201,6 +201,7 @@ header nav .menu a.active {
 
 .why-us .about-btn {
   margin-top: auto;
+  margin-right: 10px;
 }
 
 .why-us h2 {
@@ -248,9 +249,11 @@ header nav .menu a.active {
   transition: 0.3s ease;
   margin-left: 0px;
   color: white;
-  background-color: #8c52ff;
   border-color: #8c52ff;
-  box-shadow: 0 4px 8px #8c52ff;
+}
+
+.why-us a:hover{
+  background-color: #8c52ff;
 }
 
 /* Footer Section */
@@ -260,7 +263,7 @@ header nav .menu a.active {
   padding: 30px 20px;
   text-align: center;
   border-top: 1px solid #444;
-  padding-top: 10px;
+  padding-top: 30px;
   font-size: 0.9rem;
   color: #ffffff;
 }
@@ -468,6 +471,17 @@ header nav .menu a.active {
     margin: 0 auto 20px;
     max-width: 600px;
   }
+
+  ul {
+    padding-left: 20px; 
+    margin-left: 0; 
+  }
+
+  ol li {
+    padding-left: 0; 
+    margin-left: -20px; 
+  }
+
 
   /* Footer */
   .footer-content {

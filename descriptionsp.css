@@ -291,6 +291,12 @@ main {
   .product-overview {
     padding: 1rem;
     margin: 1rem;
+    flex-direction: column;
+  }
+
+  .product-overview .product-image {
+    width: 100%; 
+    max-width: 500px; 
   }
 
   .product-overview .box-contents {

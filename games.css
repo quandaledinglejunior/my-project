@@ -272,10 +272,24 @@ header nav .menu a.active {
 
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
+  .game-description {
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    display: none;
+    transition: opacity 0.5s ease;
+  }
+
+  /* Show Description on Hover */
+  .branch:hover .game-description {
+    display: flex;
+  }
+  
   body {
     padding: 0px;
   }
-  
+
   header .container {
     flex-wrap: wrap;
   }
@@ -327,7 +341,7 @@ header nav .menu a.active {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 20px 10px;
     margin-left: 0;
   }
@@ -368,14 +382,14 @@ header nav .menu a.active {
   }
 
   .branch img {
-    width: 70%;
+    width: 95%;
     height: auto;
     margin: 10px 0;
   }
 
   .branch-text {
     width: 90%;
-    text-align: center;
+    text-align: left;
   }
 
   /* Footer */
